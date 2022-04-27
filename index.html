@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="button">
+         <button class="button" id="colonne"> 
+            <i class="fa-solid fa-plus"></i>
+            Colonne
+        </button>
+        <button class="button" id="note" disabled>
+            <i class="fa-solid fa-plus"></i>
+           Note
+        </button> 
+    </div>
+    <div id="centre">
+           <!--  <div id="container">
+                <div class="colonne">
+                   <button class="clean">X</button>
+               </div>
+                <div class="note">
+                    
+                    <div class="ajout">
+                        <span id="spanRetour"><<</span> 
+                    <p id="p"></p> 
+                        <span id="spanAller">>></span>
+                    </div>
+                </div> 
+
+            </div>  --> 
+    </div>
+   
+    <div id="plus">
+        <button id="btn">+</button>
+    </div>
+    
+        <div id="modal">
+               <div class="tache">
+                   <p>NOUVELLE TACHE</p>
+                   <p id="x">X</p>
+                </div>
+            <div class="remplir">
+                <p>Remplir les informations de la nouvelle tache</p>
+                <form action="" id="form">
+                    <label for="">Tache</label><br>
+                    <textarea name="" id="" cols="45" rows="17" placeholder="Entrer le libellé"></textarea><br>
+                    
+                    Date <br>
+                    <input type="date" name="date"  placeholder="jj/mm/aaaa" class="label"><br>
+                    Heure de début
+                    <input type="time" name="heure" placeholder="--:--" class="label"><br>
+                    Heure de fin <br>
+                    <input type="time"  name="fin"  placeholder="--:--" class="label"><br>
+                    <input type="button" value="Ajouter"  id="ajouter" class="label"> 
+                </form>   
+                
+            </div> 
+
+        </div>   
+    
+    <script src="script.js"></script>
+</body>
+</html>

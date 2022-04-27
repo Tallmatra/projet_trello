@@ -1,0 +1,165 @@
+ *{
+    overflow: hidden;
+} 
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 100vh;
+    background-color: darkslategray;
+    background-image: url(lg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#button{
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(46, 46, 197);
+   display: none;
+}
+i{
+    margin-right: 1vh;
+}
+
+.button{
+    height: 4vh;
+    width: 100%;
+    margin:0.5vh;
+    background-color: rgb(46, 46, 197);
+    border:  solid rgb(46, 46, 197) ;  
+    border-left: 0.4vh solid black;
+    font-size: 2vh;
+    display: flex;
+    padding-left: 1vh;
+    padding-top: 1.5vh;
+}
+.button:hover{
+    background-color:white;
+    color:red ;
+    border-left: 0.5vh solid red;
+}
+#plus{
+   
+   margin-top: 4vh;
+}
+
+#btn{
+  width: 10vh;
+  height: 10vh;
+  border: 0.1vh solid white;
+  border-radius:50% ;
+  background-color: blue;
+  font-size: 4vh;
+     
+}
+#centre{
+    display: flex;
+    height: 86vh;
+ 
+}
+.container{
+   margin: 2vh;
+    width: 17%;
+    box-shadow: 2vh black;
+}
+.colonne{
+    width: 98%;
+    height: 10%;
+    color: white;
+    margin-left: 0.3vh;
+    margin-top: 0.2vh;
+    display: flex;
+    align-items: center; 
+   justify-content:center ;
+   background-color:rgba(0, 0, 0,0.5);
+   font-size: 3vh;
+}
+.clean{
+    border: 0.1vh solid black;
+    position: fixed;
+  
+    margin-top: -3.8%;
+   margin-left: 15.1%;
+   font-size: 3vh;
+
+}
+.note{
+    width: 100%;
+    height:90%;
+    background-image:url(logo-remove.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 2%;
+    overflow-y: auto;
+  
+    
+}
+.ajout{
+    width: 97%;
+    border: 0.1vh solid black;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0.5vh;
+} 
+#p{
+    width:100% ;
+    height:100%;
+   /*  border:0.1vh solid black ; */
+  transform: translateY(-1.5vh);
+}
+#spanRetour{
+    border: 0.1vh solid black;
+     padding-top: 1.5vh; 
+    cursor: pointer;
+    
+}
+#spanAller{
+    border: 0.1vh solid black;
+    padding-top: 1.5vh; 
+    cursor: pointer;
+}
+/* MODAL */
+#modal{
+    width: 22%;
+    height: 60vh;
+    background-color: white;
+   transform: translate(160%,-130%);
+    z-index: 2;
+   display: none;
+    cursor: pointer;
+   
+}
+#modal.showmodal{
+    display: block;
+}
+ 
+.remplir{
+    margin-left: 3vh;
+}
+.tache{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkseagreen;
+    
+}
+textarea{
+    max-width:35vh ;
+   max-height:20vh ;
+}
+.label{
+    width:35vh ;
+    height: 3vh;
+    font-size: 2vh;
+    margin-top: 1vh;
+}
+.remplir p{
+    font-size: 2vh;
+}
+#ajouter{
+    background-color: darkseagreen;
+    color: white;
+    border: 0.1vh solid darkseagreen;
+    border-radius: 2vh;
+}
